@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<widget xmlns = "htt://www.w3.org/ns/widgets"
+  xmls:gap="http://phonegap.com/ns/1.0"
+  id  ="com.phonegap"
+  version  ="1.0.0">
+  
+  <name>app1-2018 Datos del Dispositivos <name>
+  
+  <description>
+  Aplicaciones quen muestra los datos del Dispositivo
+  <description>
+  
+  <author href="https://buils.phonegap.com" email="jesuschemaramirez2000@gmail.com">
+   Jesus Emmanuel Gonzalez Ramirez
+  </author>
+  
+  <!--Personaliza la aplicacion y plataforma-->
+  <preferencia name="orientation"     value="default"/>
+  <!--<preferencia name="orientation"     value="portrait"/>
+  <preferencia name="orientation"     value="landscape"/> --> 
+  <preferencia name="target-device"     value="universal"/>
+  <preferencia name="fullscreen"     value="true"/>
+  <preferencia name="android-installLocal"     value="auto"/>
+  <preferencia name="permissions"     value="INTERNET"/>
+   
+  <!--Pligins -->
+  <!--Core plugins -->
+  <plugin name="cordova-plugin-device" spec="~1.1.4"/>
+  <plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
+  <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
+  
+  <!-- <plugin name ="cordova-plugin-geolocation" source="npm"/> -->
+   <!-- Third part plugins -->
+   
+   <!-- Colocar icono app-->
+   
+   <icon src="res/android/mdpi.png"/>
+   
+   </widget>
